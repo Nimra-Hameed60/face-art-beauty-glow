@@ -6,7 +6,7 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Bridal from "./components/Bridal";
 import Gallery from "./components/Gallery";
-import InstagramSection from "./components/InstagramSection";
+// import InstagramSection from "./components/InstagramSection";
 import Appointment from "./components/Appointment";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -30,7 +30,7 @@ function App() {
       <Services onSelectService={setPresetService} />
       <Bridal onBookBridal={handleBookBridal} />
       <Gallery />
-      <InstagramSection />
+      {/* <InstagramSection /> */}
       <Appointment presetService={presetService} />
       <Contact />
       <Footer />

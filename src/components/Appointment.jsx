@@ -79,7 +79,7 @@ Message: ${form.message || "No additional message"}`;
           </h2>
 
           <p className="text-cream-100/80 leading-relaxed">
-            Book your appointment today and let Face Art Beauty Salon
+            Book your appointment today and let Rabia Beauty parlor
             help you look and feel your best.
           </p>
         </Reveal>

@@ -1,18 +1,17 @@
 export const SALON = {
-  name: "Face Art Beauty Salon",
+  name: "Rabia Beauty parlor",
   tagline: "Professional Beauty Care & Styling in Jaranwala",
 
   addressLines: [
-    "Tehsil, Seven Seas Marriage Hall, Street No. 2",
-    "Jaranwala, Punjab, Pakistan – 37250",
+    "8CVG+W95, 127 GB Road, Al-Madina Colony, Jaranwala, Pakistan",
   ],
 
-  phoneDisplay: "0300 6665688",
-  phoneTel: "+923006665688",
-  whatsappNumber: "923006665688",
+  phoneDisplay: "0321 7218145",
+  phoneTel: "+923217218145",
+  whatsappNumber: "923217218145",
 
-  instagramHandle: "@face.art_official",
-  instagramUrl: "https://instagram.com/face.art_official",
+  // instagramHandle: "@face.art_official",
+  // instagramUrl: "https://instagram.com/face.art_official",
 };
 
 export function buildWhatsappUrl(message) {

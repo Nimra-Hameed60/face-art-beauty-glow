@@ -1,4 +1,10 @@
-import { FaPhone, FaInstagram, FaStar } from "react-icons/fa";
+import {
+  FaPhone,
+  // FaInstagram,
+  FaStar,
+  FaMapMarkerAlt,
+} from "react-icons/fa";
+
 import { SALON } from "../data/salon";
 
 const QUICK_LINKS = [
@@ -66,14 +72,33 @@ export default function Footer() {
               Contact
             </h4>
 
+            {/* Phone */}
             <a
               href={`tel:${SALON.phoneTel}`}
-              className="flex items-center gap-2 text-sm mb-2.5 hover:text-gold-400 transition-colors"
+              className="flex items-start gap-2 text-sm mb-3 hover:text-gold-400 transition-colors"
             >
-              <FaPhone className="w-4 h-4" />
-              {SALON.phoneDisplay}
+              <FaPhone className="w-4 h-4 mt-0.5 flex-shrink-0" />
+              <span>{SALON.phoneDisplay}</span>
             </a>
 
+            {/* Location */}
+            <a
+              href="https://www.google.com/maps/dir/?api=1&destination=Seven+Seas+Marriage+Hall+Street+No+2+Jaranwala+Punjab+Pakistan"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-start gap-2 text-sm hover:text-gold-400 transition-colors"
+            >
+              <FaMapMarkerAlt className="w-4 h-4 mt-0.5 flex-shrink-0" />
+
+              <span>
+                {SALON.addressLines[0]}
+                <br />
+                {SALON.addressLines[1]}
+              </span>
+            </a>
+
+            {/* Instagram intentionally commented out */}
+            {/* 
             <a
               href={SALON.instagramUrl}
               target="_blank"
@@ -83,6 +108,7 @@ export default function Footer() {
               <FaInstagram className="w-4 h-4" />
               {SALON.instagramHandle}
             </a>
+            */}
           </div>
         </div>
 

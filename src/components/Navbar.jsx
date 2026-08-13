@@ -60,8 +60,7 @@ export default function Navbar() {
               scrolled || menuOpen ? "text-ink-900" : "text-white"
             }`}
           >
-            Face Art
-            <span className="hidden sm:inline"> Beauty Salon</span>
+            Rabia Beauty Parlor
           </span>
         </a>
 

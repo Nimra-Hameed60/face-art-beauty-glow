@@ -1,7 +1,7 @@
 import {
   FaPhone,
   FaWhatsapp,
-  FaInstagram,
+  // FaInstagram,
   FaMapMarkerAlt,
   FaDirections,
 } from "react-icons/fa";
@@ -105,7 +105,7 @@ export default function Contact() {
                   WhatsApp
                 </a>
 
-                {/* Instagram */}
+                {/* Instagram 
                 <a
                   href={SALON.instagramUrl}
                   target="_blank"
@@ -114,7 +114,7 @@ export default function Contact() {
                 >
                   <FaInstagram className="w-4 h-4" />
                   Instagram
-                </a>
+                </a> */}
 
                 {/* Directions */}
                 <a
