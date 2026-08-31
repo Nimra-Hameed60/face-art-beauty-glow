@@ -44,7 +44,7 @@ export default function Hero() {
             />
 
             <span className="text-xs uppercase tracking-[0.2em] text-cream-100">
-              {SALON.name} — Jaranwala
+              {SALON.name} — Punjab Pakistan
             </span>
           </div>
 

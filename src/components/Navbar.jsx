@@ -60,7 +60,7 @@ export default function Navbar() {
               scrolled || menuOpen ? "text-ink-900" : "text-white"
             }`}
           >
-            Rabia Beauty Parlor
+            Face Art Beauty Parlor
           </span>
         </a>
 

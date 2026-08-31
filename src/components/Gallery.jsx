@@ -98,7 +98,7 @@ export default function Gallery() {
 
           <p className="text-ink-600 leading-relaxed">
             Bridal transformations, glamorous looks and the artistry behind
-            every visit to Rabia Beauty parlor.
+            every visit to Face Art Beauty parlor.
           </p>
         </Reveal>
 
